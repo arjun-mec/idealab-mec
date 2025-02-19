@@ -1,0 +1,35 @@
+.main-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.idea-logo {
+  position: absolute;
+  top: 1%;
+  width: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.image-container {
+  height: 500px;
+  z-index: 1;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-label {
+  font-family: "Montserrat", serif;
+  color: #e71d36;
+  text-align: center;
+  font-weight: 700;
+}

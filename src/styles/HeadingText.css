@@ -1,0 +1,13 @@
+.heading-text {
+  color: #e71d36;
+  width: 100%;
+  font-family: "Montserrat", serif;
+  font-size: 6rem;
+  font-weight: 800;
+  z-index: 0;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  text-align: center;
+}
