@@ -7,7 +7,7 @@ const HeadingText = () => {
     <div>
       <BlurText
         text="IDEALAB MEC"
-        delay={100}
+        delay={75}
         animateBy="letters"
         direction="top"
         className="heading-text"

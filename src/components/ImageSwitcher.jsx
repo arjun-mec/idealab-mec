@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
+import image1 from "../assets/Arduino3.png";
+import image2 from "../assets/Router3.png";
+import image3 from "../assets/Laser3.png";
+import image4 from "../assets/Ultimaker3.png";
 
 const ImageSwitcher = () => {
-  const images = [
-    "src/assets/Arduino3.png",
-    "src/assets/Router3.png",
-    "src/assets/Laser3.png",
-    "src/assets/Ultimaker3.png",
-  ];
+  const images = [image1, image2, image3, image4];
 
   const names = [
     "Arduino UNO",
