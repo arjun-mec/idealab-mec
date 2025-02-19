@@ -27,6 +27,18 @@
   object-fit: contain;
 }
 
+@media (max-width: 768px) {
+  .image-container {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 85%;
+  }
+
+  .idea-logo {
+    top: 3%;
+  }
+}
 .image-label {
   font-family: "Montserrat", serif;
   color: #e71d36;
